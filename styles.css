@@ -491,6 +491,10 @@ footer {
         top: 0%;
     }
 
+    .main.close {
+        display: none;
+    }
+
     .loop-and-X {
         display: flex;
     }
@@ -500,7 +504,7 @@ footer {
         font-size: 180%;
         font-family: 'alata';
         font-weight: 600;
-        padding: 0 0 55%;
+        padding: 0 0 48%;
         color: hsl(0, 0%, 100%);
     }
 
@@ -520,8 +524,12 @@ footer {
         font-family: 'josefin sans';
         font-weight: 300;
         text-decoration: none;
-        padding: 0 0 100%;
+        padding: 0 0 60%;
         color: hsl(0, 0%, 100%);
+    }
+
+    .mobile-footer.close {
+        display: none;
     }
 
     .image-X {
@@ -531,7 +539,7 @@ footer {
     .image-X.visible {
         display: flex;
         position: absolute;
-        top: 5.3%;
+        top: 6.5%;
         left: 87%;
     }
 }
