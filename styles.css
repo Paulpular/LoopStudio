@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    width: 100%;
+}
+
+.header-image-frame {
+    width: 100%;
+    position: relative;
+}
+
+.header-image {
+    width: 100%;
+}
+
+.mobile-header-image, .image-list, .image-X {
+    display: none;
+}
+
+.header-text-1 {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "alata";
+    position: absolute;
+    top: 7%;
+    left: 11.5%;
+}
+
+.text-1-left {
+    width: 19%;
+    
+}
+
+h1 {
+    width: 100%;
+    font-size: 196%;
+}
+
+.text-1-right {
+    display: flex;
+    width: 34%;
+    gap: 5.5%;
+    padding: 0.5% 0 0;
+}
+
+.about, .careers, .events, .products, .support {
+    font-size: 88%;
+    font-weight: 400;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.header-text-2 {
+    width: 45%;
+    padding: 2.5% 0 1.8% 2.5%;
+    border: solid 2px hsl(0, 0%, 100%);
+    position: absolute;
+    top: 31.5%;
+    left: 11.5%;
+}
+
+.text-2-paragraph {
+    width: 90%;
+    font-family: "josefin sans";
+    font-weight: 300;
+    font-size: 3.8rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.section-2 {
+    width: 100%;
+    position: relative;
+}
+
+.first-image-container {
+    width: 45%;
+    margin: 10% 0 10% 11.5%;
+}
+
+.first-image {
+    width: 100%;
+}
+
+.interactive-texts {
+    width: 50%;
+    background: hsl(0, 0%, 100%);
+    font-family: "josefin sans";
+    padding: 6% 0 1% 6%;
+    position: absolute;
+    top: 34%;
+    left: 46.5%;
+}
+
+.interactive-text-1 {
+    width: 60%;
+    margin: 0 0 5% ;
+}
+
+.paragraph-1 {
+    width: 100%;
+    font-size: 210%;
+    font-weight: 300;
+    color: hsl(0, 0%, 0%);
+}
+
+.interactive-text-2 {
+    width: 70%;
+}
+
+.paragraph-2 {
+    width: 100%;
+    color: hsl(0, 0%, 55%);
+    font-size: 80%;
+    line-height: 150%;
+}
+
+.section-3 {
+    width: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "josefin sans";
+    margin: 0 auto;
+}
+
+.creations {
+    width: 36%;
+}
+
+.section3-left {
+    width: 100%;
+    font-size: 245%;
+    font-weight: 300;
+}
+
+.earth-image, .night-image, .soccer-image, .grid-image, .above-image, .borealis-image, .curiosity-image, .fisheye-image {
+    display: none;
+}
+
+.deep-earth-1, .night-arcade-1, .soccer-team-1, .the-grid-1, .up-above-1, .pocket-borealis-1, .curiosity-1, .fisheye-1 {
+    display: none;
+}
+
+.see-all {
+    width: 12%;
+    text-align: center;
+    border: solid 1.5px hsl(0, 0%, 41%);
+    padding: 0.4% 0.1%;
+    cursor: pointer;
+}
+
+.section3-right {
+    font-size: 65%;
+    text-decoration: none;
+    font-family: "alata";
+    color: hsl(0, 0%, 0%);
+}
+
+.section-4 {
+    width: 78%;
+    display: flex;
+    margin: 6% auto 2%;
+    justify-content: space-between;
+}
+
+.desktop-image-1, .desktop-image-2, .desktop-image-3, .desktop-image-4 {
+    width: 23%;
+    position: relative;
+}
+
+.image-1, .image-2, .image-3, .image-4 {
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.deep-earth, .night-arcade, .soccer-team, .the-grid {
+    width: 54%;
+    font-family: 'Josefin Sans';
+    font-size: 160%;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 78%;
+    left: 16.5%;
+}
+
+.section-5 {
+    width: 78%;
+    display: flex;
+    margin: 0 auto 9%;
+    justify-content: space-between;
+}
+
+.desktop-image-5, .desktop-image-6, .desktop-image-7, .desktop-image-8 {
+    width: 23%;
+    position: relative;
+}
+
+.image-5, .image-6, .image-7, .image-8 {
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.up-above, .pocket-borealis, .curiosity, .fisheye {
+    width: 70%;
+    font-family: 'Josefin Sans';
+    font-size: 160%;
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 78%;
+    left: 16.5%;
+}
+
+footer {
+    width: 100%;
+    background-color: hsl(0, 0%, 0%);
+}
+
+.footer-design-1 {
+    width: 78%;
+    display: flex;
+    margin: 0 auto;
+    padding: 2.5% 0 1.5%;
+    justify-content: space-between;
+}
+
+.footer-text-1 {
+    width: 15%;
+}
+
+.loop {
+    width: 100%;
+    font-family: "alata";
+    font-size: 155%;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-icons {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 0 0;
+}
+
+.footer-icon-1, .footer-icon-2, .footer-icon-3, .footer-icon-4 {
+    width: auto;
+}
+
+.facebook, .pinterest, .instagram {
+    width: 100%;
+}
+
+.twitter {
+    width: 100%;
+    padding: 5% 0 0;
+}
+
+.footer-design-2 {
+    width: 78%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 0 2.5%;
+    justify-content: space-between;
+}
+
+.footer-text-2 {
+    width: 37%;
+    display: flex;
+    font-family: "alata";
+    justify-content: space-between;
+}
+
+.footer-about, .footer-careers, .footer-events, .footer-products, .footer-support {
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+}
+
+.footer-text-3 {
+    color: hsl(0 0% 41);
+    font-family: 'Alata';
+}
+
+.mobile-footer {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .header-image-frame {
+        position: relative;
+    }
+
+    .header-image {
+        display: none;
+    }
+
+    .mobile-header-image {
+        width: 100%;
+        display: block;
+    }
+
+    .header-text-1 {
+        width: 86%;
+        position: absolute;
+        top: 5%;
+        left: 6.5%;
+    }
+
+    .text-1-left {
+        width: 45%;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    .about, .careers, .events, .products, .support {
+        display: none;
+    }
+
+    .text-1-right {
+        width: 7%;
+    }
+
+    .image-list {
+        display: flex;
+    }
+
+    .image-list.invisible {
+        display: none;
+    }
+
+    .header-text-2 {
+        width: 86%;
+        top: 36%; 
+        left: 7%;
+        padding: 6%;
+    }
+
+    .text-2-paragraph {
+        width: 100%;
+        font-size: 270%;
+    }
+
+    .section-2 {
+        padding: 25% 7% 13%;
+    }
+
+    .first-image-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .first-image {
+        width: 100%;
+    }
+
+    .interactive-texts {
+        width: 100%;
+        padding: 12% 0;
+        position: unset;
+    }
+
+    .interactive-text-1 {
+        width: auto;
+        text-align: center;
+        margin: 0 0 7%;
+    }
+
+    .interactive-text-2 {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .paragraph-2 {
+        width: 85%;
+        font-size: 100%;
+    }
+
+    .section-3 {
+        width: 100%;
+        padding: 0 7%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .creations {
+        width: 95%;
+        text-align: center;
+        margin: 0 0 15%;
+    }
+
+    .section3-left {
+        font-size: 210%;
+    }
+
+    .mobile-image-1, .mobile-image-2, .mobile-image-3, .mobile-image-4, .mobile-image-5, .mobile-image-6, .mobile-image-7, .mobile-image-8 {
+        width: auto;
+        position: relative;
+        margin: 0 0 6%;
+    }
+
+    .earth-image, .night-image, .soccer-image, .grid-image, .above-image, .borealis-image, .curiosity-image, .fisheye-image {
+        width: 100%;
+        display: block;
+        filter: brightness(80%);
+    }
+
+    .deep-earth-1, .night-arcade-1, .soccer-team-1, .the-grid-1, .up-above-1, .pocket-borealis-1, .curiosity-1, .fisheye-1 {
+        display: block;
+        width: 35%;
+        font-family: 'Josefin Sans';
+        font-size: 145%;
+        font-weight: 300;
+        color: hsl(0, 0%, 90%);
+        position: absolute;
+        top: 45%;
+        left: 7%;
+    }
+
+    .see-all {
+        width: 50%;
+        padding: 3% 0;
+        margin: 7% 0 20%;
+    }
+
+    .section3-right {
+        font-size: 100%;
+    }
+
+    .section-4, .section-5 {
+        display: none;
+    }
+
+    .footer-design-1, .footer-design-2 {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 10% 0 10%
+    }
+
+    .footer-text-1 {
+        width: 37%;
+        padding: 0 0 3%;
+    }
+
+    .footer-text-2 {
+        flex-direction: column;
+    }
+
+    .footer-about, .footer-careers, .footer-events, .footer-products, .footer-support {
+        padding: 15% 0 0;
+    }
+
+    .footer-icons {
+        width: 35%;
+        justify-content: space-between;
+        padding: 13% 0 5%;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .hamburger-menu.switch {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background: hsl(0, 0%, 0%);
+        padding: 8.5% 0 0 6.5%;
+        top: 0%;
+    }
+
+    .loop-and-X {
+        display: flex;
+    }
+
+    .menu-loopstudio {
+        width: 40%;
+        font-size: 180%;
+        font-family: 'alata';
+        font-weight: 600;
+        padding: 0 0 55%;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .menu-about, .menu-careers, .menu-events, .menu-products {
+        width: 36%;
+        font-size: 150%;
+        font-family: 'josefin sans';
+        font-weight: 300;
+        text-decoration: none;
+        padding: 0 0 7%;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .menu-support {
+        width: 36%;
+        font-size: 150%;
+        font-family: 'josefin sans';
+        font-weight: 300;
+        text-decoration: none;
+        padding: 0 0 100%;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .image-X {
+        display: none;
+    }
+
+    .image-X.visible {
+        display: flex;
+        position: absolute;
+        top: 5.3%;
+        left: 87%;
+    }
+}
