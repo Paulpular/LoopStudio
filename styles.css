@@ -351,7 +351,7 @@ footer {
 
     .text-2-paragraph {
         width: 100%;
-        font-size: 270%;
+        font-size: 255%;
     }
 
     .section-2 {
@@ -422,7 +422,7 @@ footer {
 
     .deep-earth-1, .night-arcade-1, .soccer-team-1, .the-grid-1, .up-above-1, .pocket-borealis-1, .curiosity-1, .fisheye-1 {
         display: block;
-        width: 35%;
+        width: 40%;
         font-family: 'Josefin Sans';
         font-size: 145%;
         font-weight: 300;
